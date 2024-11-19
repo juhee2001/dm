@@ -6,6 +6,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 @Controller
 public class HomeController {
     int a;
+	int b;
 	@GetMapping("/")
 	public String preLogin()
 	{
